@@ -353,6 +353,10 @@ type key 查询类型
 
 可以使用zset的命令操作。
 
+## hypeloglog
+
+## bitemap
+
 ## 添加
 
 见文档
@@ -466,3 +470,10 @@ System.out.println(jedis.get("zhangsan"));
 jedis.close();
 ```
 
+
+
+
+
+# Springboot整合
+
+简单。略
