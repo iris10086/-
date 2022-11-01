@@ -155,3 +155,49 @@ in << "this is a test text.";
 in << "new line ?";
 ```
 
+
+
+
+
+
+
+## 目录 QDir
+
+过滤文件
+
+void QDir::setNameFilters(const QStringList &nameFilters) 
+
+与QDir的成员enum进行配合使用
+
+
+
+
+
+排序
+
+void QDir::setSorting(QDir::SortFlags sort)
+
+QDir::SortFlags QDir::sorting() const
+
+
+
+获取文件列表
+
+ QFileInfoList entryInfoList(const QStringList &nameFilters, QDir::Filters filters = NoFilter, QDir::SortFlags sort = NoSort) const
+ QFileInfoList entryInfoList(QDir::Filters filters = NoFilter, QDir::SortFlags sort = NoSort) const
+
+
+
+ QStringList entryList(const QStringList &nameFilters, QDir::Filters filters = NoFilter, QDir::SortFlags sort = NoSort) const
+ QStringList entryList(QDir::Filters filters = NoFilter, QDir::SortFlags sort = NoSort) const
+
+
+
+## 特殊方法
+
+获取rootpath，currentpath，workpath等。
+
+
+
+## QFileInfo
+
